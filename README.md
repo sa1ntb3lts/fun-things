@@ -1,1 +1,3 @@
-# funny-things
+# Things I do for entertainment (and learning)...
+
+This repository contains programs I create for fun and to practice my programming skills.
