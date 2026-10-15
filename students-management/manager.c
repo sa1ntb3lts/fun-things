@@ -1,10 +1,9 @@
 /*
 REQUIREMENTS:
 
-TODO: Read students information.
-TODO: Add student 
-TODO: Modify or add information to a student.
-
+TODO: Read students names and grades.
+TODO: Add student.
+TODO: Modify or add grade to a student.
 */
 
 
