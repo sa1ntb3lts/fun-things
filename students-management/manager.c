@@ -14,3 +14,15 @@ int main() {
 	
 	return 0;
 }
+
+void read_student() {
+	// TODO: Implement read_student
+}
+
+void add_student() {
+	// TODO: Implement add_student
+}
+
+void mod_student() {
+	// TODO: Implement mod_student
+}
