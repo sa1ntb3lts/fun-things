@@ -11,6 +11,7 @@ int main() {
 		puts("1. Add student.");
 		puts("2. Delete student.");
 		puts("3. Modify student.");
+		puts("4. Display all students.");
 		puts("0. Leave.");
 		puts("\nChoose an option: ");
 		
@@ -52,5 +53,9 @@ void delete_student() {
 
 void mod_student() {
 	// TODO: Implement mod_student
+}
+
+void display_students() {
+	// TODO: Implement display_students
 }
 */
