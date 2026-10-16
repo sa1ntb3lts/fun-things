@@ -1,17 +1,4 @@
-/*
-REQUIREMENTS:
-TODO: Add student.
-TODO: Modify students.
-*/
-
-
 #include <stdio.h>
-
-struct student {
-	char name[20];
-	int id[8];
-	float grade;
-};
 
 int main() {
 	int option = -1;
@@ -52,11 +39,11 @@ int main() {
 	return 0;
 }
 /*
-void read_student() {
+void add_student() {
 	// TODO: Implement read_student
 }
 
-void add_student() {
+void delete_student() {
 	// TODO: Implement add_student
 }
 
