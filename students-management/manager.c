@@ -1,11 +1,14 @@
 #include <stdio.h>
 
+#define GREEN_COLOR "\e[0;32m"
+#define RESET_COLOR "\e[0;37m"
+
 int main() {
 	int option = -1;
 	
 	do {		
-		puts("--- MANAGER MENU ---");
-		puts("\n1. Add student.");
+		puts(GREEN_COLOR "--- MANAGER MENU ---" RESET_COLOR);
+		puts("1. Add student.");
 		puts("2. Delete student.");
 		puts("3. Modify student.");
 		puts("0. Leave.");
