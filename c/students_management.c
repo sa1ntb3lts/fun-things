@@ -3,6 +3,11 @@
 #define GREEN_COLOR "\e[0;32m"
 #define RESET_COLOR "\e[0;37m"
 
+struct student {
+	char name[20];
+	int id;
+};
+
 int main() {
 	int option = -1;
 	
