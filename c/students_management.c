@@ -15,8 +15,7 @@ int main() {
 		puts(GREEN_COLOR "--- MANAGER MENU ---" RESET_COLOR);
 		puts("1. Add student.");
 		puts("2. Delete student.");
-		puts("3. Modify student.");
-		puts("4. Display all students.");
+		puts("3. Display all students.");
 		puts("0. Leave.");
 		puts("\nChoose an option: ");
 		
@@ -32,7 +31,7 @@ int main() {
 				break;
 			
 			case 3:
-				//mod_student();
+				//display_students();
 				break;
 				
 			case 0:
@@ -54,10 +53,6 @@ void add_student() {
 
 void delete_student() {
 	// TODO: Implement add_student
-}
-
-void mod_student() {
-	// TODO: Implement mod_student
 }
 
 void display_students() {
