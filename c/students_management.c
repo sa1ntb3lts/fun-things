@@ -1,10 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define GREEN_COLOR "\e[0;32m"
 #define RESET_COLOR "\e[0;37m"
 
 struct student {
-	char name[20];
+	char name[15];
 	int id;
 };
 
@@ -23,11 +24,11 @@ int main() {
 		
 		switch (option) {
 			case 1:
-				//read_student();
+				add_student();
 				break;
 				
 			case 2:
-				//add_student();
+				//delete_student();
 				break;
 			
 			case 3:
@@ -46,11 +47,12 @@ int main() {
 
 	return 0;
 }
-/*
+
 void add_student() {
 	// TODO: Implement read_student
+	
 }
-
+/*
 void delete_student() {
 	// TODO: Implement add_student
 }
@@ -58,4 +60,4 @@ void delete_student() {
 void display_students() {
 	// TODO: Implement display_students
 }
-*/ 
+*/
